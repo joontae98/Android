@@ -16,3 +16,11 @@
         !is String -> println("String 타입이 아닙니다.")
         else -> println("어떤 조건도 만족하지 않습니다.")
     }
+### 반복문
+* 다중 반복문에서 continue, break 를 loop를 설정하면 설정된 반복문을 기준으로 빠져나옴    
+      
+      loop@for(i in 1 .. 10){
+        for(j in 1..10){
+        if (i == 1 && j == 2)break@loop
+        println("i: $i, j: $j")}
+      }
