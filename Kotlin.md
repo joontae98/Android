@@ -27,3 +27,9 @@
 ### 클래스
 * 클래스는 인스턴스를 만드는 틀
 * 인스턴스는 클래스를 이용해서 만들어 내는 서로 다른 속성의 객체를 지칭하는 용어
+
+           	class Person (var name:String, val birthYear:Int) {
+             fun introduce(){
+                    println("안녕하세요. ${birthYear}년생 ${name}입니다.")
+              }
+            }
