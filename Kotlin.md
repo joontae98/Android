@@ -33,3 +33,10 @@
                   println("안녕하세요. ${birthYear}년생 ${name}입니다.")
             }
       }
+* init함수 - 인스턴스 생성시 호출
+      
+      class Person (var name:String, val birthYear:Int) {
+           init{
+            println("${this.birthYear}년생 ${this.name}님이 생성되었습니다.")
+            }
+      }
