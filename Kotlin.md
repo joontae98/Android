@@ -40,3 +40,7 @@
             println("${this.birthYear}년생 ${this.name}님이 생성되었습니다.")
             }
       }
+#### 생성자
+* 기본 생성자
+      
+      (var name:String, val birthYear:Int)
