@@ -13,7 +13,12 @@
 * **Content Provider**: 애플리케이션 간의 데이터 공유를 위해 표준화된 인터페이스를 제공하는 컴포넌트
 * **Notification**: 사용자에게 특정 이벤트를 알리는 컴포넌트
 * **Fragment**: 액티비티 내에서 독자적으로 동작할 수 있는 UI 컴포넌트
-
+## Android Class 정리
+#### Service
+* onBind(): bindService()에 의해 서비스가 시작될 때 호출, Service객체와 Activity에서 통신할 때 사용.
+* onCreate(): (최초에 한번) 서비스에서 가장 먼저 호출됨.
+* onStartCommand(): 서비스가 호출될 때 마다 실행.
+* onDestroy(): 서비스가 종료될 때 실행.
 ### Android Project
 Chat App: https://github.com/joontae98/ChatApp   
 랜덤 뽑기 앱(이건어때?): https://github.com/joontae98/how-about-app
