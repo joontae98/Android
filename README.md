@@ -22,6 +22,7 @@
 * onDestroy(): 서비스가 종료될 때 실행.
 #### Tip
 * 모든 디바이스에서 같은 화면 비율을 유지하기 위해 Space를 넣고 weight로 화면 구성
+* 안드로이드 버전 변경시 바뀌는 함수들은 버전에 따라 예외 처리
 ### Android Project
 Chat App: https://github.com/joontae98/ChatApp   
 랜덤 뽑기 앱(이건어때?): https://github.com/joontae98/how-about-app
